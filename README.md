@@ -1,71 +1,95 @@
-# Getting Started with Create React App
+📋 Gerenciamento de Áreas e Serviços
+================================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação de gerenciamento de áreas e serviços, desenvolvida com React. A aplicação permite listar, adicionar e gerenciar áreas de maneira eficaz, oferecendo uma interface intuitiva e funcionalidades práticas como busca e paginação.
 
-## Available Scripts
+🚀 Instalação
+Para iniciar o projeto localmente, siga os passos abaixo:
 
-In the project directory, you can run:
+1. Clonar o Repositório
+Clone o repositório para sua máquina local:
 
-### `npm start`
+bash
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Verify
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open In Editor
+Edit
+Copy code
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+2. Navegar para o Diretório do Projeto
+Navegue para o diretório do projeto:
 
-### `npm test`
+bash
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Verify
 
-### `npm run build`
+Open In Editor
+Edit
+Copy code
+cd nome-do-repositorio
+3. Instalar Dependências
+Instale as dependências necessárias com npm ou yarn:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Verify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open In Editor
+Edit
+Copy code
+npm install
+# ou
+yarn install
+4. Iniciar o Servidor de Desenvolvimento
+Inicie o servidor de desenvolvimento para visualizar a aplicação:
 
-### `npm run eject`
+bash
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Verify
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open In Editor
+Edit
+Copy code
+npm start
+# ou
+yarn start
+Acesse a aplicação em http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+💻 Funcionalidades
+Visualizar Áreas: Liste todas as áreas cadastradas com suporte a busca e paginação.
+Adicionar Nova Área: Formulário para adicionar novas áreas, incluindo nome, descrição, unidades e serviços.
+Navegação Intuitiva: Navegue facilmente entre páginas e funcionalidades com o uso de ícones e botões.
+📦 Estrutura do Projeto
+src/componentes:
+Cadastro.js: Componente para listar e gerenciar áreas.
+NovaArea.js: Componente para adicionar novas áreas.
+src/mock-data:
+servicos.js: Dados simulados para serviços.
+unidades.js: Dados simulados para unidades.
+src/styles:
+Cadastros.css: Estilos para o componente Cadastros.
+NovaArea.css: Estilos para o componente NovaArea.
+🛠 Tecnologias Utilizadas
+React: Biblioteca para construção da interface de usuário.
+FontAwesome: Ícones usados na interface.
+React Router: Gerenciamento de navegação entre páginas.
+📝 Detalhes dos Componentes
+1. Componente Cadastros
+Objetivo: Exibir uma lista de áreas cadastradas, permitir a navegação para adicionar uma nova área, e implementar funcionalidades básicas de pesquisa e paginação.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Estrutura e Funcionalidade:
+Importações e Configuração
+Estados e Efeitos
+Funções
+Renderização
+Estilos: Estilos são aplicados a partir de Cadastros.css.
+2. Componente NovaArea
+Objetivo: Adicionar uma nova área ao sistema, permitindo ao usuário inserir informações, selecionar unidades e serviços, e salvar essas informações.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# desafio_frontend
+Estrutura e Funcionalidade:
+Importações e Configuração
+Estados e Funções
+Renderização
+Estilos: Estilos CSS são aplicados a partir de NovaArea.css.
+📧 Contato
