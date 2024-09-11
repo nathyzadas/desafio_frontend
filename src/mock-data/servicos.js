@@ -1,0 +1,21 @@
+export const mockServicos = [
+'Ação Judicial',
+  'Área Judicial',
+  'Assunto Judicial',
+  'Campos Extras',
+  'Centro de Custo',
+  'Empresa',
+  'Fases',
+  'Local de Serviço',
+  'Motivo',
+  'Partes',
+  'Prioridade',
+  'Submotivo',
+  'Tags',
+  'Tipos de Andamentos',
+  'Tipos de AudiÊncia',
+  'Tipos de Documento',
+  'Unidades',
+  'Workflow',
+  ];
+  
